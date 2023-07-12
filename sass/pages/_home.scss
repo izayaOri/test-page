@@ -44,11 +44,14 @@
             rgba($color-white, .9) 50%,
             transparent 50%), 
             url(/img/nat-10.jpg);
-    background-size: 100%;
+    background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba( $color-black, .2 );
 
-    height: 40rem;
+    height: 50rem;
 
     &__form {
         width: 50%;
